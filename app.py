@@ -11,7 +11,7 @@ model = joblib.load("heart_stacking_model.pkl")
 scaler = joblib.load("heart_scaler.pkl")
 columns = joblib.load("heart_columns.pkl")
 
-stroke_model = load_model("stroke_nn_model.h5")
+stroke_model = load_model("stroke_nn_model.keras")
 stroke_scaler = joblib.load("stroke_scaler.pkl")
 stroke_columns = joblib.load("stroke_columns.pkl")
 
